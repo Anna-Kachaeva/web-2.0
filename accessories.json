@@ -1,0 +1,45 @@
+[
+  {
+    "name": "D9 Cap",
+    "price": "$90.00",
+    "store": "Grailed",
+    "link": "https://www.grailed.com/browse/d9-hat",
+    "image": "D9 Cap.jpg"
+  },
+  {
+    "name": "Unappreciated Hat",
+    "price": "$80.00",
+    "store": "Prayingg",
+    "link": "https://prayingg.com/products/unappreciated-hat",
+    "image": "Unappreciated Hat.jpg"
+  },
+  {
+    "name": "God's Favorite Real Tree Hat",
+    "price": "$49.99",
+    "store": "Prayingg",
+    "link": "https://prayingg.com/products/gods-favorite-real-tree-hat",
+    "image": "God's Favorite Real Tree Hat.jpg"
+  },
+  {
+    "name": "Financial Crisis Destroyed Hoodie",
+    "price": "$180.00",
+    "store": "Prayingg",
+    "link": "https://prayingg.com/?srsltid=AfmBOoqknfnT1m8jrWZu-D77EQ8U--NPYjBnnbfH6mpR3PMmkPUZP3nR",
+    "image": "Financial Crisis Destroyed Hoodie.jpg"
+  },
+  {
+    "name": "Jersey Jacket",
+    "price": "$170.00",
+    "store": "Prayingg",
+    "link": "https://prayingg.com/?srsltid=AfmBOoqknfnT1m8jrWZu-D77EQ8U--NPYjBnnbfH6mpR3PMmkPUZP3nR",
+    "image": "Jersey Jacket.jpg"
+  },
+  {
+    "name": "Organ Tee",
+    "price": "$75.00",
+    "store": "Prayingg",
+    "link": "https://prayingg.com/?srsltid=AfmBOoqknfnT1m8jrWZu-D77EQ8U--NPYjBnnbfH6mpR3PMmkPUZP3nR",
+    "image": "Organ Tee.jpg"
+  }
+  
+]

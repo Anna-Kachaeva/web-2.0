@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Онлайн-магазин</title>
+    <link rel="stylesheet" href="accessories-style.css">
+
+    <style>
+  
+        .nav-box {
+            display: inline-block;
+            padding: 15px 25px;
+            border: 2px solid #000;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            background: #ffffff;
+            margin: 20px auto;
+        }
+
+        .nav-box ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .nav-link-custom {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-link-custom:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    
+    
+
+    
+    <nav style="text-align:center;">
+        <div class="nav-box">
+            <ul class="menu-main">
+                <li><a class="nav-link-custom" href="index.html">Главная</a></li>
+                <li><a class="nav-link-custom" href="clothes.html">Одежда</a></li>
+                <li><a class="nav-link-custom" href="accessories.html"><b>Магазин</b></a></li>
+                <li><a class="nav-link-custom" href="form.html">Форма с предложениями</a></li>
+                <li><a href="https://prayingg.com" target="_blank">
+                    <img src="praying.png" alt="Prayingg" style="height:32px; width:auto;"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="cards-container"></div>
+
+    <div style="text-align:center; margin: 30px 0;">
+        <button id="order-button">Заказать</button>
+    </div>
+
+    <div id="cards-container" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; padding:20px;"></div>
+
+    <script src="accessories.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

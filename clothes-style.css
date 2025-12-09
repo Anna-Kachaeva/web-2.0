@@ -1,0 +1,36 @@
+.nav-box {
+            display: inline-block;
+            padding: 15px 25px;
+            border: 2px solid #000;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            background: #fff;
+            margin: 20px auto;
+        }
+
+        .nav-box ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .nav-link-custom {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-link-custom:hover {
+            opacity: 0.7;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+a {
+          text-decoration: none;
+        }
+        

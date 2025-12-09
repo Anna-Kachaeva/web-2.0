@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма предложений</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="form-style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+        }
+
+        h1, h3 {
+            text-align: center;
+        }
+
+  
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            padding: 14px 0;
+            background: transparent;
+        }
+
+        .nav-box {
+            display: inline-block;
+            padding: 12px 24px;
+            border: 2px solid black;
+            border-radius: 18px;
+            background: white;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+
+        .menu-main {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 22px;
+        }
+
+        .menu-main a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .menu-main a:hover {
+            opacity: 0.75;
+        }
+
+        .strong {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+
+   
+
+
+    <nav>
+        <div class="nav-box">
+            <ul class="menu-main">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="clothes.html">Одежда</a></li>
+                <li><a href="accessories.html">Магазин</a></li>
+                <li><a href="form.html"><b>Форма с предложениями</b></a></li>
+                <li>
+                    <a href="https://prayingg.com" target="_blank">
+                        <img src="praying.png" alt="Prayingg" style="height:32px; width:auto;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Секция формы -->
+    <div class="container mt-4">
+
+        <h3>Ваши предложения</h3>
+
+        <form action="https://google.com" target="_blank" method="get">
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <p>Имя: <input type="text" name="last_name" size="20" value="Анна"></p>
+                <p>Телефон: <input type="tel" name="phone" size="20" value="89096687433"></p>
+                <p>Email: <input type="email" name="email" size="20" value="annamail@gmail.com"></p>
+                <button type="submit" name="submit" value="Отправить" class="btn btn-primary">Отправить</button>
+            </fieldset>
+        </form>
+
+        <form action="https://google.com" target="_blank" method="get">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <p>Возраст <input type="number" name="age" value="20" min="0" max="100"></p>
+                <p>Категория вашего подарка:
+                    <select name="type">
+                        <option value="одежда">Одежда</option>
+                        <option value="техника">Техника</option>
+                        <option value="аксессуар">Аксессуар</option>
+                    </select>
+                </p>
+                <p>Напишите ваши варианты: <br>
+                    <textarea cols="80" rows="4" name="variants"></textarea>
+                </p>
+                <p>Понравился ли формат сайта?
+                    <input type="radio" name="mark" value="yes" checked> Да
+                    <input type="radio" name="mark" value="no"> Нет
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Выбор контакта</legend>
+                <p>Какой способ связи предпочитаете:
+                    <input type="checkbox" name="contact" value="tg" checked> Телеграм
+                    <input type="checkbox" name="contact" value="vk"> Вконтакте
+                    <input type="checkbox" name="contact" value="sms"> Смс
+                    <input type="checkbox" name="contact" value="mail"> Почта
+                </p>
+                <button type="submit" name="submit" value="Отправить" class="btn btn-primary">Отправить</button>
+            </fieldset>
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

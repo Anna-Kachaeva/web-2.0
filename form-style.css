@@ -1,0 +1,16 @@
+.menu-main {
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+  font-family: Arial;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+ font-family: Arial;
+}
+a {
+          text-decoration: none;
+        }
